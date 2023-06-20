@@ -2,13 +2,15 @@
 
 Requirements:
 
-1. Two players (Need a player class).
+1. Two players (for the time being), need a player class.
 
-2. Each player has a deck (probably as an instance variable a dict or a list).
+2. Before the game deck is shuffled (shuffle method).
 
-3. Before the game each player's deck is shuffled (shuffle method).
+3. Each player gets a half of the deck (probably as an instance variable a dict or a list).
 
 4. Implement CLI UI (optional)
+
+5. After the turn add cards to the bottom of the deck to the winners pile and shuffle won cards if more than 1.
 
 5. Implement pauses between the turn's (an action that a player has to take here could be a solution)
 
